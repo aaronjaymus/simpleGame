@@ -7,6 +7,8 @@ import './index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+
 ReactDOM.render(
 	<Routes history={browserHistory} />, 
 	document.getElementById('root')

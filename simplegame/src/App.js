@@ -16,7 +16,6 @@ class App extends Component {
           <p><Link to="/">Home</Link></p>
           <p><Link to="/rps">Rock Paper Scissors</Link></p>
           <p><Link to="/ttt">Tic Tac Toe</Link></p>
-
           {this.props.children}
         </p>
       </div>
