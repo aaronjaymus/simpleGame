@@ -5,7 +5,9 @@ class RPS extends Component {
   render() {
     return (
       <div className="RPS">
-        <h1>Rock Paper Scissors</h1>
+      	<div className="jumbotron">
+       		<h1>Rock Paper Scissors</h1>
+       	</div>	
       </div>
     );
   }
